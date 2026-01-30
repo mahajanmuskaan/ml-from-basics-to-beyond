@@ -7,6 +7,25 @@ NumPy was created in 2005 by Travis Oliphant. It is an open source project and y
 NumPy stands for Numerical Python.
 NumPy arrays are stored at one continuous place in memory unlike lists, so processes can access and manipulate them very efficiently.
 This behavior is called locality of reference in computer science.
+
+Why We Use NumPy:
+1. NumPy arrays are faster and more compact than Python lists.
+2. NumPy provides a large set of numeric datatypes to choose from.
+3. NumPy arrays facilitate advanced mathematical and other types of operations on large numbers of data.
+4. NumPy operations are implemented in C and Fortran. So they are faster than operations implemented in Python
+
+Data Structures in NumPy:
+1. ndarray: A multidimensional array object.
+
+Basic Operations Covered:
+1. Creating NumPy arrays
+2. Array operations (addition, subtraction, multiplication, division, exponentiation, square root)
+3. Joining and splitting arrays
+4. Indexing and slicing
+5. Searching, sorting, and filtering arrays
+
+NumPy Documentation: https://numpy.org/doc/
+
 '''
 
 import numpy as np  # Importing the NumPy library
