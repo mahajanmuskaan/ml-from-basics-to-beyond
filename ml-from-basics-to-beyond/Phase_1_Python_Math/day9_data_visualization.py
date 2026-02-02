@@ -41,3 +41,31 @@ import seaborn as sns
 import numpy as np
 import pandas as pd
 
+# Sample Data
+data = {
+    'Category': ['A', 'B', 'C', 'D', 'E'],
+    'Values': [10, 25, 40, 65, 80]
+}
+df = pd.DataFrame(data)
+# Bar Chart using Matplotlib
+plt.figure(figsize=(8, 5))
+plt.bar(df['Category'], df['Values'], color='red')
+plt.xlabel('Category')
+plt.ylabel('Values')
+plt.title('Bar Chart Example')
+plt.savefig('bar_chart.png')
+plt.show()
+
+# Scatter Plot using Seaborn
+# Sample Data for Scatter Plot
+np.random.seed(0)
+x = np.random.rand(50)
+y = np.random.rand(50)
+scatter_data = pd.DataFrame({'X': x, 'Y': y})
+plt.figure(figsize=(8, 5))
+sns.scatterplot(data=scatter_data, x='X', y='Y', color='skyblue')
+plt.title('Scatter Plot Example')
+plt.savefig('scatter_plot.png')
+plt.show()
+
+
