@@ -25,8 +25,6 @@ In theory, we assume a linear relationship between variables. However, real-worl
 - Measurement errors
 - Random noise
 
-These unpredictable variations are called **stochastic errors**.
-
 Because of this, most real-world data is **not perfectly linear** — it is **approximately linear**. Linear Regression works well when the relationship follows a general linear trend.
 
 ---
