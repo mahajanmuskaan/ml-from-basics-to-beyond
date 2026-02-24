@@ -69,17 +69,16 @@ For bite-sized explanations, daily learning tips, conceptual breakdowns, and qui
 
 ---
 
-### ✅ Phase 3: Exploratory Data Analysis (EDA)
-**Goal:** Learn to understand and communicate what data is saying before modeling.
+### ✅ Phase 3: Machine Learning Fundamentals
+**Goal:** Officially enter the world of ML models — understand the core concepts before touching any algorithm.
 
 **Topics Covered:**
-- Univariate, bivariate, and multivariate analysis
-- Distribution analysis
-- Correlation heatmaps
-- Identifying patterns and anomalies
-- Storytelling with data
+- What is a model?
+- Training vs Testing
+- Overfitting & Underfitting *(very important)*
+- Bias–Variance Tradeoff
 
-> 💡 **Key Takeaway:** EDA is not optional — it is the difference between modeling blind and modeling informed.
+> 💡 **Key Takeaway:** Before writing a single line of ML code, understanding *why* models fail is more valuable than knowing how to build them.
 
 ---
 
@@ -90,17 +89,6 @@ For bite-sized explanations, daily learning tips, conceptual breakdowns, and qui
 
 > 💡 **Key Takeaway:** Understanding the math behind the algorithm is what separates practitioners from engineers.
 
----
-
-## 💡 Key Learnings (So Far)
-
-1. **Good data beats fancy algorithms** — consistently
-2. **Preprocessing determines success** — 80% of ML work happens before modeling
-3. **Math intuition > formula memorization** — understanding *why* matters more than *what*
-4. **Consistency compounds** — daily practice transforms difficult concepts into intuition
-5. **First principles matter** — Andrew Ng's approach of building everything from scratch before abstractions creates far deeper understanding
-
----
 
 ## 🛠️ Tools & Technologies
 
@@ -113,12 +101,12 @@ For bite-sized explanations, daily learning tips, conceptual breakdowns, and qui
 - NumPy (numerical computation)
 - pandas (data manipulation)
 - Matplotlib & Seaborn (visualization)
+- scikit-learn (ML algorithms) *(upcoming)*
 
 **Courses & References:**
-- [Andrew Ng — Machine Learning Specialization]([https://www.coursera.org/specializations/machine-learning-introduction](https://learn.deeplearning.ai/specializations/machine-learning/lesson/bw6i6/welcome-to-machine-learning!]) *(Core reference for Supervised Learning)*
+- [Andrew Ng — Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) *(Core reference for Supervised Learning)*
 
 ---
-```
 
 ---
 
