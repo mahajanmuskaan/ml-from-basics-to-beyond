@@ -1,0 +1,137 @@
+📘 Phase 2 – Day 16: Outlier Detection & Handling
+
+In real-world data, not all values behave normally.
+Some values are extremely high or low compared to the rest — these are called outliers.
+
+❓ What Is an Outlier?
+
+An outlier is a data point that significantly differs from other observations in a dataset.
+
+Examples:
+
+Extremely high cashback amount
+
+Unusually low or zero spending
+
+Abnormal transaction behavior
+
+📌 Outliers may occur due to:
+
+Data entry mistakes
+
+Measurement errors
+
+Rare but valid events
+
+❓ Why Are Outliers Important in ML?
+
+Outliers matter because they can:
+
+1️⃣ Distort data statistics
+
+Affect mean and standard deviation
+
+2️⃣ Mislead ML models
+
+Models may learn wrong patterns
+
+3️⃣ Reduce model performance
+
+Especially for distance-based models
+
+4️⃣ Reveal important insights
+
+Fraud, rare behavior, or special cases
+
+📌 Key idea:
+👉 Not all outliers are wrong — but all must be examined.
+
+🔍 Methods Used for Outlier Detection
+1️⃣ Z-Score Method
+
+Measures how far a value is from the mean
+
+Expressed in terms of standard deviations
+
+📌 Common rule:
+
+|Z-score| > 3 → potential outlier
+
+👉 Best when data is approximately normally distributed.
+
+2️⃣ IQR (Interquartile Range) Method
+
+Uses the middle 50% of data
+
+Detects values far below or above normal range
+
+Outlier range:
+
+Below: Q1 − 1.5 × IQR
+
+Above: Q3 + 1.5 × IQR
+
+👉 Very effective for skewed data.
+
+3️⃣ Visualization (Intuition Builder)
+
+Box plots
+
+Histograms
+
+Scatter plots
+
+📌 Visual methods often reveal outliers faster than numbers.
+
+🛠️ What I Practiced Today
+
+Using a real E-commerce dataset, I:
+
+Explored data using summary statistics
+
+Detected outliers using:
+
+Z-Score method
+
+IQR method
+
+Compared how different methods flag outliers
+
+Identifying extreme values in CashbackAmount
+
+This is exactly how outliers are analyzed in real ML projects.
+
+⚙️ How Can Outliers Be Handled?
+
+There is no single correct answer. Common approaches include:
+
+1️⃣ Removal
+
+If outliers are clear errors
+
+2️⃣ Transformation
+
+Log or scaling transformations
+
+3️⃣ Imputation
+
+Replace with mean or median
+
+4️⃣ Robust Models
+
+Use models less sensitive to outliers
+(e.g., Decision Trees, Random Forests)
+
+📌 Important rule:
+👉 Always understand why an outlier exists before removing it.
+
+🔗 Code for Day 16
+
+All code for Outlier Detection (Z-Score & IQR) is available here 👇
+🔗 GitHub Repo:
+https://github.com/mahajanmuskaan/ml-from-basics-to-beyond
+
+💭 Your Turn:
+Would you remove an outlier or keep it if it represents rare but real behavior?
+
+👉 Next (Day 17): Feature Scaling – Why normalization & standardization matter 🌱

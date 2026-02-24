@@ -1,0 +1,142 @@
+📘 Phase 2 – PHASE 2: Data Handling & Preprocessing 
+Day 19 - Wrap-Up – From Raw Data to ML-Ready Data
+
+Phase 2 was not about models.
+It was about discipline, data thinking, and foundations.
+
+If Phase 1 taught us how to code,
+Phase 2 taught us how to think like an ML practitioner.
+
+🧱 What We Covered in Phase 2
+
+Here’s everything we learned, step by step:
+
+1️⃣ Understanding Data
+
+What is a dataset?
+
+Structured vs unstructured data
+
+Features and types of features
+
+2️⃣ Handling Missing Values
+
+Dropping rows and columns
+
+Imputing:
+
+Mean / Median for numerical data
+
+Mode for categorical data
+
+Using Pandas and Scikit-Learn (SimpleImputer)
+
+3️⃣ Categorical Encoding
+
+One-Hot Encoding
+
+Label Encoding
+
+Ordinal Encoding
+
+When to use which encoding
+
+4️⃣ Outlier Detection & Handling
+
+What are outliers and why they matter
+
+Z-Score method
+
+IQR method
+
+When to remove, cap, or transform outliers
+
+5️⃣ Feature Scaling
+
+Standardization (Z-score)
+
+Min-Max Scaling
+
+Why scaling is critical for many ML models
+
+6️⃣ Train–Test Split & Data Leakage
+
+Why splitting data is mandatory
+
+What data leakage is (and how to avoid it)
+
+Correct ML workflow order
+
+🧠 The Biggest Lesson from Phase 2
+
+Good models don’t fix bad data.
+Good data makes even simple models powerful.
+
+Most real ML work happens before model training.
+
+📌 Data quality matters more than:
+
+Fancy algorithms
+
+Complex architectures
+
+Advanced tuning
+
+🔄 From Raw to ML-Ready
+
+At the start of Phase 2:
+
+Data was messy
+
+Missing values existed
+
+Categories were text
+
+Features had different scales
+
+At the end of Phase 2:
+
+Data is clean
+
+Encoded
+
+Scaled
+
+Split correctly
+
+Ready for modeling
+
+👉 This is a huge milestone.
+
+🛠️ Practice Over Theory
+
+Every concept in Phase 2 was:
+✔ Practiced using real data
+✔ Implemented in Python
+✔ Documented with code
+
+📂 All code is available on GitHub:
+🔗 https://github.com/mahajanmuskaan/ml-from-basics-to-beyond
+
+🌱 What Comes Next
+
+🎯 Phase 3: Machine Learning Fundamentals
+
+We’ll start answering:
+
+What is a model?
+
+How does training work?
+
+Overfitting vs underfitting
+
+Evaluation metrics
+
+Bias–variance tradeoff
+
+📌 This is where ML officially begins.
+
+💭 Reflection Question:
+If you had to explain Phase 2 in one sentence, what would it be?
+
+👉 Next: Phase 3 – ML Fundamentals (Day 20) 🚀

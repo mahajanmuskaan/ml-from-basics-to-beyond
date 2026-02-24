@@ -1,0 +1,117 @@
+📘 Phase 2 – Data Handling & Preprocessing
+Day 17: Feature scaling (normalization vs standardization)
+
+Making Features Comparable for ML Models
+
+In Machine Learning, features often come in very different ranges.
+For example:
+
+Cashback amount → 0 to 300
+
+Number of devices → 1 to 6
+
+If we don’t handle this properly, models may behave incorrectly.
+
+👉 This is where Feature Scaling comes in.
+
+❓ What Is Feature Scaling?
+
+Feature scaling is the process of bringing numerical features to a similar scale so that no feature dominates others just because of its size.
+
+📌 Key idea:
+👉 Scaling changes the scale, not the meaning of data.
+
+❓ Why Feature Scaling Matters in ML
+
+Feature scaling helps to:
+
+1️⃣ Improve model performance
+2️⃣ Speed up model convergence
+3️⃣ Prevent bias toward large-scale features
+4️⃣ Make distance-based models work correctly
+
+📌 Especially important for:
+
+Linear Regression
+
+Logistic Regression
+
+KNN
+
+SVM
+
+Neural Networks
+
+🔢 Types of Feature Scaling
+1️⃣ Standardization (Z-Score Normalization)
+
+This method:
+
+Centers data around mean = 0
+
+Scales it to standard deviation = 1
+
+📌 Best used when:
+
+Data has outliers
+
+Distribution is approximately normal
+
+👉 Commonly used in ML pipelines.
+
+2️⃣ Min-Max Scaling (Normalization)
+
+This method:
+
+Scales data between 0 and 1
+
+📌 Best used when:
+
+Data needs to be bounded
+
+You want to preserve relative distances
+
+🧠 What I Practiced Today
+
+Using a real E-commerce dataset, I:
+
+Selected a numerical feature (CashbackAmount)
+
+Visualized its distribution before scaling
+
+Applied:
+
+StandardScaler (Standardization)
+
+MinMaxScaler (Normalization)
+
+Visualized distributions after scaling
+
+Added scaled features as new columns
+
+Saved the updated dataset
+
+This mirrors how real ML preprocessing is done.
+
+⚖️ Standardization vs Normalization (Quick Guide)
+Method	Output Range	Best For
+Standardization	Mean = 0, Std = 1	Most ML models
+Min-Max Scaling	0 to 1	Neural networks, bounded data
+
+📌 Rule of thumb:
+👉 If unsure, start with Standardization.
+
+🔗 Code for Day 17
+
+All code for Feature Scaling (StandardScaler & MinMaxScaler) is available here 👇
+🔗 GitHub Repo:
+https://github.com/mahajanmuskaan/ml-from-basics-to-beyond
+
+💭 Your Turn:
+Which scaling method would you prefer to start with:
+
+Standardization
+
+Min-Max Scaling
+
+👉 Next: Phase 2 Wrap-Up – From Raw Data to ML-Ready Data 🌱

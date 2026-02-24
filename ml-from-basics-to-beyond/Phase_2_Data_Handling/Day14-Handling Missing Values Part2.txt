@@ -1,0 +1,108 @@
+PHASE 2: Data Handling & Preprocessing
+📘 Day 14: Handling Missing Values
+Part 2: Imputing Categorical Data (and a note on Numerical Data)
+
+In the previous post, we saw how to drop rows or columns with missing values.
+But dropping data is not always the best option.
+
+👉 Today’s focus: Imputing missing values, especially for categorical data.
+
+❓ What Is Imputation?
+
+Imputation means filling missing values with meaningful values instead of deleting data.
+
+📌 Why impute?
+
+To avoid losing data
+
+To keep dataset size intact
+
+To make models more stable
+
+🔤 Imputing Categorical Data (Object Type)
+
+Categorical data includes:
+
+Gender
+
+Payment mode
+
+Device type
+
+Marital status
+
+Product category
+
+These columns usually have text values, not numbers.
+
+✅ Most Common Method: Mode Imputation
+
+Mode = most frequent value in the column
+
+📌 Why mode works well for categorical data?
+
+It represents the most common category
+
+It does not distort the distribution much
+
+It’s simple and effective
+
+👉 Example idea:
+If most users use “Mobile Phone”, missing values can be filled with “Mobile Phone”.
+
+🔍 What I Did in Today’s Practice (Pandas)
+
+Identified categorical columns using object datatype
+
+Found the mode of each categorical column
+
+Filled missing values in each categorical column using its mode
+
+Verified that no missing values remain in categorical features
+
+📌 This approach is widely used in real-world ML preprocessing.
+
+🔁 Handling Multiple Categorical Columns Together
+
+Instead of filling one column at a time:
+
+Select all categorical columns
+
+Apply mode imputation column-wise
+
+📌 Best practice:
+👉 Treat each categorical column independently (use its own mode).
+
+🔢 Note on Numerical Data (Preview)
+
+Numerical columns require different strategies
+
+Common methods:
+
+Mean
+
+Median
+
+Most frequent
+
+These are often handled using Scikit-Learn’s SimpleImputer
+
+📌 We will use this approach when working fully with numerical features.
+
+🧠 ML Perspective
+
+Categorical features must not contain missing values
+
+Imputation is often better than dropping
+
+Choice of strategy affects model performance
+
+📌 Rule of thumb:
+👉 Drop when missing data is very small
+👉 Impute when data is valuable and reusable
+
+All code for categorical data imputation (Pandas) and numerical imputation (Scikit-Learn) is available on GitHub 👇
+🔗 GitHub Repo:
+https://github.com/mahajanmuskaan/ml-from-basics-to-beyond
+
+👉 Next: Feature scaling & why it matters in ML 🌱

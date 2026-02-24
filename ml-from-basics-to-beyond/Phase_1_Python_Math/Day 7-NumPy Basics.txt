@@ -1,0 +1,61 @@
+PHASE 1: Python & Math Foundations
+📘 Day 7: NumPy Basics(Arrays, Operations & Indexing)
+
+Now that we’re comfortable with Python basics and data structures, it’s time to meet NumPy — one of the most important libraries for Machine Learning.
+
+🔢 What is NumPy?
+NumPy stands for Numerical Python. NumPy is a Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices. NumPy was created in 2005 by Travis Oliphant.
+
+Why it’s important:
+
+1. ML works heavily with numbers, vectors, and matrices
+2. NumPy makes these operations fast and efficient
+3. It stores data in continuous memory, which makes computations quicker(this is called locality of reference)
+
+📌 Key idea:
+👉 NumPy helps ML models process large numerical data efficiently.
+
+📦 What I Practiced in Today’s Code
+
+In today’s NumPy practice, I covered:
+
+🔹 Creating NumPy arrays
+
+1D arrays (like a list of numbers)
+2D arrays (like tables or matrices)
+
+🔹 Array operations
+
+1. Addition, subtraction, multiplication, division
+2. Power and square root operations
+(operations happen element-wise, no loops needed!)
+
+🔹 Joining & splitting arrays
+1. Combining arrays
+2. Splitting arrays into parts
+
+🔹 Indexing & slicing
+1. Accessing specific elements
+2. Selecting rows and columns
+3. Extracting sub-arrays (very common in ML)
+
+🔹 Searching, sorting & filtering
+1. Finding values based on conditions
+2. Sorting numerical data
+3. Filtering arrays using conditions (e.g., values > 50)
+
+🧠 Why NumPy is Important for ML
+1. Datasets are converted into NumPy arrays
+2. Model computations run on arrays and matrices
+3. Operations like gradient calculations depend on NumPy-style math
+
+📌 Simple rule:
+👉 If Python is the language, NumPy is the mathematical engine of ML.
+
+🔗 Code for Today’s Practice
+All NumPy examples and practice code for Day 7 are uploaded here 👇
+🔗 GitHub Repo:
+https://github.com/mahajanmuskaan/ml-from-basics-to-beyond
+
+
+👉 Next (Day 8): Pandas Basics – DataFrames & CSV Handling

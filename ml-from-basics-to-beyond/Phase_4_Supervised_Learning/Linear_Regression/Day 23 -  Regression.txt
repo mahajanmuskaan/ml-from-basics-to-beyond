@@ -1,0 +1,52 @@
+📘 PHASE 4: Supervised Learning
+Part A: Regression Models
+Day 23 – What is Regression?
+
+Now that we understand models and generalization, we officially begin Supervised Learning with one of the most fundamental tasks:
+
+🔹 What is Regression?
+
+Regression is a type of supervised learning used to predict continuous numerical values.
+
+In simple terms:
+
+👉 If the output is a number (not a category), it is most likely a regression problem.
+
+📌 Real-World Examples
+
+Predicting house prices
+
+Estimating salary based on experience
+
+Forecasting temperature
+
+Predicting monthly sales revenue
+
+Estimating medical expenses
+
+In all these cases, the output is a number that can take many possible values.
+
+🔎 How Regression Works (Intuition)
+
+A regression model:
+
+• Takes input features (X)
+• Learns the relationship between inputs and output
+• Predicts a numerical value (Y)
+
+Example:
+
+House Size + Location + Rooms → Model → Predicted Price
+
+The model’s task is to learn a function that best maps inputs to outputs.
+
+🎯 Goal of Regression
+
+The goal is not just to fit past data.
+The goal is to accurately predict unseen numerical values.
+
+A good regression model:
+
+✔ Captures real patterns
+✔ Avoids overfitting
+✔ Generalizes well to new data

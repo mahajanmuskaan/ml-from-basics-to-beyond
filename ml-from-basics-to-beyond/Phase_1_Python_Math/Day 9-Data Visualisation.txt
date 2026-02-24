@@ -1,0 +1,102 @@
+PHASE 1: Python & Math Foundations
+📘 Day 9: Data visualization (Matplotlib / Seaborn – basics)
+
+After working with NumPy and Pandas, the next important step in Machine Learning is data visualization.
+Before building models, we must see and understand the data.
+
+📊 What Are Matplotlib & Seaborn?
+
+🔹 Matplotlib
+
+A core Python library for creating plots and graphs
+
+Used for basic visualizations like line plots, bar charts, histograms, and scatter plots
+
+Created by John D. Hunter (2003)
+
+🔹 Seaborn
+
+Built on top of Matplotlib
+
+Provides a higher-level and more visually appealing interface
+
+Especially useful for statistical plots
+
+Developed by Michael Waskom
+
+📌 Key idea:
+👉 Seaborn makes plots look better, Matplotlib gives you full control.
+
+❓ Why Data Visualization Is Important in ML
+
+Visualization helps to:
+
+1️⃣ Understand data
+
+Spot patterns, trends, and outliers
+
+2️⃣ Communicate insights
+
+Explain results clearly to others
+
+3️⃣ Explore relationships
+
+Identify connections between variables before modeling
+
+📌 In ML, visualization often decides what preprocessing or model to use next.
+
+🧠 When to Use Which Plot?
+
+Line Plot → show trends over time
+
+Bar Chart → compare categories
+
+Histogram → understand data distribution
+
+Scatter Plot → see relationships between two variables
+
+Heatmap → visualize correlations or intensity
+
+Pairplot → explore relationships among multiple variables
+
+🛠️ What I Practiced in Today’s Code
+
+In today’s visualization practice, I covered:
+
+Creating a bar chart using Matplotlib
+
+Creating a scatter plot using Seaborn
+
+Adding:
+
+Titles
+
+Axis labels
+
+Saving plots as image files
+
+These plots are commonly used during EDA (Exploratory Data Analysis) in ML.
+
+🧠 ML Perspective
+
+Visualization comes before model training
+
+Helps decide:
+
+Which features matter
+
+Whether data needs scaling
+
+If outliers or imbalance exist
+
+📌 Simple rule:
+👉 If you don’t understand your data visually, don’t trust your model.
+
+🔗 Visualization Code on GitHub
+
+All Matplotlib & Seaborn practice code for Day 9 is available here 👇
+🔗 GitHub Repo:
+https://github.com/mahajanmuskaan/ml-from-basics-to-beyond
+
+
+👉 Next: Moving ahead to the next phase - Math (ML-relevant only)🌱

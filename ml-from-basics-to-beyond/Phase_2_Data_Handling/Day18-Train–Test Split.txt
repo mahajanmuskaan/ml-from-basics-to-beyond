@@ -1,0 +1,108 @@
+📘 Phase 2 – PHASE 2: Data Handling & Preprocessing
+Day 18: Train–Test Split & Data Quality(And Why Data Matters More Than Models)
+
+Before training any Machine Learning model, there is one critical step that must never be skipped:
+👉 splitting data correctly.
+
+🔀 What Is Train–Test Split?
+
+A train–test split divides your dataset into two parts:
+
+Training data → used to train the model
+
+Testing data → used to evaluate how well the model performs on unseen data
+
+Typical split:
+
+70% training / 30% testing
+
+or 80% training / 20% testing
+
+📌 Key idea:
+👉 A model should be tested on data it has never seen before.
+
+❓ Why Do We Need Train–Test Split?
+
+Without a proper split:
+
+The model may memorize data instead of learning patterns
+
+Evaluation results become misleading
+
+Model may fail in real-world usage
+
+📌 Train–test split helps us check generalization, not memory.
+
+🚨 What Is Data Leakage? (Simple Explanation)
+
+Data leakage happens when information from the test set accidentally influences the training process.
+
+Examples of leakage:
+
+Scaling or imputing data before splitting
+
+Using future information to predict the past
+
+Calculating statistics (mean, median) on full dataset instead of training set
+
+📌 Why this is dangerous:
+👉 The model looks very accurate during testing — but fails in real life.
+
+🧠 Simple Rule to Avoid Data Leakage
+
+Always follow this order:
+
+1️⃣ Split data into train and test
+2️⃣ Learn preprocessing rules only on training data
+3️⃣ Apply the same rules to test data
+
+📌 Golden rule:
+👉 Test data must stay completely untouched until evaluation.
+
+📊 Why Data Quality Matters More Than Models
+
+Many beginners think:
+
+“Better model = better results”
+
+In reality:
+
+Better data = better results
+
+📌 Poor data causes:
+
+Poor predictions
+
+Overfitting
+
+Unstable models
+
+📌 Clean, well-preprocessed data allows even simple models to perform well.
+
+🧠 ML Reality Check
+
+70–80% effort → data cleaning & preprocessing
+
+20–30% effort → model building
+
+📌 Important truth:
+👉 A simple model on good data beats a complex model on bad data.
+
+🧭 Where This Fits in Our Journey
+
+So far, we have:
+✔ Cleaned missing values
+✔ Encoded categorical data
+✔ Handled outliers
+✔ Scaled features
+
+👉 Train–test split is the final gate before modeling.
+
+💭 Your Turn:
+Which do you think is more dangerous?
+
+Not splitting data
+
+Data leakage
+
+👉 Next: Phase 2 Wrap-Up – From Raw Data to Model-Ready Data 🌱

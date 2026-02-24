@@ -1,0 +1,90 @@
+Phase 1 : Python & Math Foundations
+📘 Day 5: Python Basics for ML
+
+(Variables, Loops, Functions)
+
+Before doing Machine Learning in Python, you must understand three core building blocks: variables, loops, and functions.
+
+🔹 1. Variables – Storing Data
+
+A variable is a name that stores a value in memory.
+
+Simple syntax & examples:
+age = 25
+name = "Rahul"
+height = 5.9
+
+
+You can change a variable’s value:
+
+age = age + 1
+print(age)   # 26
+
+Key points:
+
+No need to declare data type (Python decides)
+
+Use meaningful names: score, price, student_name
+
+📌 Key idea:
+👉 A variable is a label you put on data so you can use it later.
+
+🔹 2. Loops – Repeating Work Automatically
+
+Loops let you run the same code again and again without rewriting it.
+
+(a) for loop – repeat for a fixed range or list
+for i in range(1, 6):
+    print(i)
+
+
+Output:
+
+1 2 3 4 5
+
+(b) while loop – repeat while a condition is true
+count = 1
+while count <= 3:
+    print(count)
+    count = count + 1
+
+Why loops matter in ML:
+
+Going through rows of a dataset
+
+Processing many images, records, or samples
+
+📌 Key idea:
+👉 Loops help you handle large amounts of data efficiently.
+
+🔹 3. Functions – Reusable Blocks of Code
+
+A function is a named block of code that performs a specific task.
+
+Simple syntax:
+def add_numbers(a, b):
+    return a + b
+
+Using the function:
+result = add_numbers(3, 5)
+print(result)   # 8
+
+Why functions matter in ML:
+
+Organize code into steps (load data, clean data, train model)
+
+Reuse the same logic in multiple projects
+
+📌 Key idea:
+👉 Functions help you write clean, reusable, and well-organized code.
+
+🧠 How This Connects to ML
+
+Variables store data, model parameters, and results
+
+Loops process datasets, epochs, and batches
+
+Functions structure the ML pipeline (preprocessing → training → evaluation)
+
+👉 Next (Day 6): Python Data Structures for ML
+(Lists, Tuples, Dictionaries)

@@ -1,0 +1,115 @@
+PHASE 2: Data Handling & Preprocessing
+📘 Day 13: Handling Missing Values
+Part 1: Dropping Rows & Columns
+
+In real-world datasets, missing values are very common.
+Before training any ML model, we must decide how to handle them.
+
+Today’s focus 👉 Removing missing values by dropping rows or columns.
+
+❓ What Are Missing Values?
+
+Missing values occur when data is not recorded or unavailable.
+
+Examples:
+
+Customer didn’t provide age
+
+Order date is missing
+
+Sensor failed to record a value
+
+📌 Key idea:
+👉 ML models cannot work properly with missing values unless we handle them.
+
+🔍 Step 1: Identifying Missing Values
+
+Before deleting anything, we must understand how much data is missing.
+
+Common checks:
+
+Dataset shape (rows × columns)
+
+Count of missing values per column
+
+Visual inspection using a missing-value heatmap
+
+📌 Why visualization helps:
+👉 It quickly shows which columns or rows are heavily affected.
+
+🗑️ Approach 1: Dropping Columns with Many Missing Values
+
+Sometimes a column has too many missing values and contributes little to analysis.
+
+Example:
+
+Column with 300+ missing values
+
+Column not important for prediction
+
+📌 When to drop a column:
+
+Missing values are very high
+
+Column is not useful for modeling
+
+Imputation would introduce too much noise
+
+👉 In such cases, dropping the column is a practical choice.
+
+🗑️ Approach 2: Dropping Rows with Missing Values
+
+If only a few rows contain missing data, we can remove them safely.
+
+📌 When to drop rows:
+
+Dataset is large
+
+Missing values are limited to few rows
+
+Removing rows won’t affect overall data distribution
+
+⚠️ Caution:
+Dropping rows reduces dataset size — so it must be done carefully.
+
+🔎 Before vs After Dropping
+
+Always compare:
+
+Dataset shape (before & after)
+
+Remaining missing values
+
+Data consistency
+
+📌 Best practice:
+👉 Never drop blindly. Always analyze first.
+
+🧠 ML Perspective
+
+Dropping data is the simplest method
+
+But it can cause information loss
+
+Works best when:
+
+missing data is small
+
+dataset is sufficiently large
+
+📌 Rule of thumb:
+👉 Drop only when missing values are few or uninformative.
+
+🔗 Code for Today’s Practice
+
+All code for Day 13: Handling Missing Values (Dropping Rows & Columns) is available on GitHub 👇
+🔗 GitHub Repo:
+https://github.com/mahajanmuskaan/ml-from-basics-to-beyond
+
+(The implementation uses Pandas, heatmaps, and real dataset analysis.)
+
+💭 Your Turn:
+Would you prefer to drop data or fill missing values when possible?
+
+👉 Next (Day 14): Handling Missing Values – Part 2
+Imputing numerical & categorical data 🌱

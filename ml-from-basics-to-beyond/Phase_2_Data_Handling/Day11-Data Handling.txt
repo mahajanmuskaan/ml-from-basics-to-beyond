@@ -1,0 +1,102 @@
+PHASE 2: Data Handling & Preprocessing
+📘 Day 11:What Is a Dataset?(Structured vs Unstructured Data)
+
+Before building any Machine Learning model, we must clearly understand what data actually is and how it is organized.
+
+📂 What Is a Dataset?
+
+A dataset is a collection of data points used to train, test, or analyze a Machine Learning model.
+
+Each dataset usually contains:
+
+Rows → individual records (samples)
+
+Columns → features or attributes
+
+Example:
+
+One row = one student
+
+Columns = age, marks, attendance
+
+📌 Key idea:
+👉 A dataset is the raw material for Machine Learning.
+No data → no learning.
+
+🧱 Structured Data
+
+Structured data is data that is:
+
+Well organized
+
+Stored in rows and columns
+
+Easy to read and analyze
+
+Examples:
+
+CSV files
+
+Excel sheets
+
+Database tables
+
+Sample:
+
+Name   Age   Marks
+Amit   20    85
+Neha   21    90
+
+
+📌 ML use:
+👉 Most beginner ML models work directly with structured data.
+
+🌀 Unstructured Data
+
+Unstructured data does not follow a fixed table format.
+
+Examples:
+
+Text (emails, reviews, documents)
+
+Images
+
+Audio
+
+Videos
+
+Social media posts
+
+📌 ML use:
+👉 Unstructured data needs preprocessing before ML models can use it.
+
+⚖️ Structured vs Unstructured (Quick Comparison)
+Aspect	Structured Data	Unstructured Data
+Format	Rows & columns	No fixed format
+Easy to analyze	✅ Yes	❌ No
+Examples	CSV, Excel	Images, text
+Preprocessing	Less	More
+🧠 Why This Matters in ML
+
+ML models cannot directly understand raw unstructured data
+
+Data must be:
+
+cleaned
+
+transformed
+
+converted into numbers
+
+📌 Important truth:
+👉 Data preparation depends heavily on the type of data you have.
+
+💭 Your Turn
+
+Think about your daily data:
+
+WhatsApp chats → structured or unstructured?
+
+Excel marksheet → structured or unstructured?
+
+👉 Next: Types of features & data used in ML (numerical, categorical, etc.)

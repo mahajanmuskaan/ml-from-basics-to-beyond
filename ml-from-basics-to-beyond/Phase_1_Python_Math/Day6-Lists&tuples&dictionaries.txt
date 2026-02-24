@@ -1,0 +1,88 @@
+Phase 1 : Python & Math Foundations
+📘 Day 6: Python Data Structures for ML(Lists, Tuples, Dictionaries)
+
+Data structures help us store and organize collections of data.
+These three are essential for Machine Learning.
+
+🔹 1. Lists – Ordered & Changeable Collections
+
+Lists store multiple items in order, and you can add, remove, or modify them.
+
+Simple syntax & examples:
+# Create a list
+students = ["Rahul", "Priya", "Amit", "Sneha"]
+
+# Access by index (starts from 0)
+print(students[0])   # Rahul
+
+# Add an item
+students.append("Vikram")
+print(students)
+
+Loop through a list:
+for student in students:
+    print(student)
+
+
+📌 ML use:
+👉 Store datasets, feature values, predictions, batches of data.
+
+🔹 2. Tuples – Ordered & Unchangeable Collections
+
+Tuples are like lists, but once created, they cannot be changed.
+
+Simple syntax & example:
+# Create a tuple
+coordinates = (10, 20)   # (x, y)
+
+print(coordinates[0])   # 10
+
+
+❌ You cannot do this:
+
+coordinates[0] = 15   # ERROR
+
+
+📌 ML use:
+👉 Store fixed values like image size (224, 224), model settings, constants.
+
+📌 Key idea:
+👉 Use tuples when data should never change.
+
+🔹 3. Dictionaries – Key : Value Pairs
+
+Dictionaries store data in key–value format.
+
+Simple syntax & example:
+# Create a dictionary
+student = {
+    "name": "Rahul",
+    "age": 25,
+    "city": "Ludhiana"
+}
+
+# Access value using key
+print(student["name"])   # Rahul
+
+Add or update values:
+student["score"] = 85
+print(student)
+
+
+📌 ML use:
+👉 Store feature names, patient records, model hyperparameters.
+
+🧠 ML Connection (Realistic Examples)
+Dataset           → List of records
+Patient record    → Dictionary {"age": 45, "glucose": 180, "diabetes": True}
+Model config      → Tuple (learning_rate, epochs)
+Feature names     → List ["age", "glucose", "bmi"]
+
+⚖️ Quick Comparison
+Use Case	List	Tuple	Dictionary
+Dataset rows	✅	❌	❌
+Fixed settings	❌	✅	❌
+Feature : Value	❌	❌	✅
+
+
+👉 Next (Day 7): NumPy – Numerical Computing for Machine Learning

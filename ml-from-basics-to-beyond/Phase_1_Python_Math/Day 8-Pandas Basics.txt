@@ -1,0 +1,116 @@
+PHASE 1: Python & Math Foundations
+📘 Day 8: Pandas Basics(Series, DataFrames & Handling Real Data)
+
+After NumPy, the next essential tool for Machine Learning is Pandas.
+If NumPy handles numbers efficiently, Pandas helps us work with real-world datasets.
+
+🐼 What is Pandas?
+
+Pandas is an open-source Python library used for data analysis and data manipulation.
+It is built on top of NumPy and is designed to work with structured data like tables, CSV files, and datasets.
+
+📌 Created by Wes McKinney (2008)
+
+❓ Why Do We Use Pandas in ML?
+
+Pandas makes working with data easier because it:
+
+Handles missing data cleanly
+
+Allows adding/removing columns easily
+
+Aligns data automatically
+
+Supports powerful group-by operations
+
+Works well with time-series and tabular data
+
+📌 Key idea:
+👉 In ML, most of the time is spent understanding and preparing data, not training models — Pandas helps here.
+
+📦 Core Pandas Data Structures
+
+🔹 Series
+
+One-dimensional labeled array
+
+Similar to a single column in a table
+
+Holds one data type
+
+Used for:
+
+Time-series data
+
+Single feature values
+
+🔹 DataFrame
+
+Two-dimensional table (rows × columns)
+
+Can store different data types in different columns
+
+Mutable (can change size and values)
+
+Used for:
+
+Datasets
+
+CSV files
+
+Real-world structured data
+
+📌 Simple difference:
+👉 Series = single column
+👉 DataFrame = full table
+
+🔍 What I Practiced in Today’s Code
+
+In today’s Pandas practice, I covered:
+
+Creating Series and DataFrames
+
+Accessing data using:
+
+Indexing
+
+iloc (position-based selection)
+
+loc (label-based selection)
+
+Conditional selection (filtering rows)
+
+Handling missing values:
+
+Filling missing data
+
+Dropping rows or columns with missing values
+
+CSV handling:
+
+Saving DataFrame to CSV
+
+Reading data from CSV
+
+Basic data operations:
+
+Mean calculation
+
+Sum calculation
+
+🧠 loc vs iloc (Quick Intuition)
+
+loc → select using labels (column names, row labels)
+
+iloc → select using index positions
+
+📌 Use loc when you know names.
+📌 Use iloc when working with positions.
+
+🔗 Pandas Code on GitHub
+
+All Pandas examples and practice code for Day 8 are available here 👇
+🔗 GitHub Repo:
+https://github.com/mahajanmuskaan/ml-from-basics-to-beyond
+
+👉 Next (Day 9): Data Visualization – Matplotlib & Seaborn Basics

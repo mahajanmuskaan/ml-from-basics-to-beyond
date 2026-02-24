@@ -1,0 +1,43 @@
+# Day 25 — How Does Linear Regression Actually Find the "Best" Line?
+
+---
+
+## First, What Are We Even Trying to Do?
+
+Imagine you have data points scattered on a graph — say, house sizes on the X-axis and house prices on the Y-axis. You want to draw **one straight line** that best represents the relationship between them.
+
+But there are infinite possible lines you could draw. So the real question is:
+
+> **What makes one line better than another? And how does the algorithm find it?**
+
+That's exactly what today is about.
+
+---
+
+## The Intuition — What is "Error"?
+
+Draw any line through your data. For each data point, measure the **vertical distance** between the actual point and your line.
+
+```
+Actual Price:    ₹50 Lakhs
+Line Prediction: ₹45 Lakhs
+Error:           ₹5 Lakhs  ← your line was wrong by this much
+```
+
+This distance is called the **residual** — how far off your prediction was from reality.
+
+A good line has **small residuals**. A bad line has **large residuals**.
+
+Simple enough. But here's the problem — some errors will be positive (predicted too low), some negative (predicted too high). If you just add them up, they cancel each other out and give you a misleadingly small total error.
+
+**Solution:** Square each error before adding. Squaring does two things — it makes all values positive, and it **punishes large errors more heavily** than small ones.
+
+---
+
+## The Cost Function — Putting It Formally
+
+This total squared error is packaged into something called the **Cost Function**, most commonly the **Mean Squared Error (MSE):**
+
+So J(θ) is simply a **single number** that tells you how wrong your line is overall. 
+
+> The lower J(θ), the better your line.
