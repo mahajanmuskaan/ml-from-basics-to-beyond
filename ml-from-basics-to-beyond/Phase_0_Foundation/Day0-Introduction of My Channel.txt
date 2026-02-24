@@ -1,0 +1,52 @@
+📌 Welcome to the ML Learning Journey!
+
+Hello everyone 👋
+Welcome to Machine Learning – From Basics to Beyond 🚀
+
+I’m starting this channel to make my Machine Learning journey interactive, consistent, and beginner-friendly.
+I’m revisiting Machine Learning fundamentals in a structured way, and before posting anything here, I’ll study each concept properly first, then share simple and clear explanations so we can learn together.
+
+This channel is for:
+✔ Beginners who feel ML is confusing
+✔ Students starting their ML journey
+✔ Anyone who wants step-by-step clarity
+
+🧭 How this ML learning journey will work
+
+We’ll follow a proper roadmap, moving slowly from basics to advanced:
+
+🔹 Phase 0: Orientation
+Understanding what Machine Learning actually is and where it’s used.
+
+🔹 Phase 1: Python & Math Foundations
+Only the Python and math needed for ML — no unnecessary fear.
+
+🔹 Phase 2: Data Handling & Preprocessing
+Learning how real-world data is cleaned and prepared (very important!).
+
+🔹 Phase 3: ML Fundamentals
+Understanding models, training, testing, overfitting, and evaluation.
+
+🔹 Phase 4: Supervised Learning
+Regression and classification models explained simply.
+
+🔹 Phase 5: Unsupervised Learning
+Clustering and dimensionality reduction concepts.
+
+🔹 Phase 6: Practical ML & Model Improvement
+How models are improved and used in real projects.
+
+🔹 Phase 7: Intro to Advanced Topics (later)
+A gentle introduction to advanced ML & deep learning concepts.
+
+📅 What to expect here
+
+📌 One concept at a time
+📌 Simple explanations
+📌 Real-life intuition
+📌 Beginner-friendly pace
+
+If you’re learning ML or planning to start — you’re in the right place 🌱
+Let’s grow step by step, without rushing.
+
+👉 Next post: What is Machine Learning? (Explained Simply)

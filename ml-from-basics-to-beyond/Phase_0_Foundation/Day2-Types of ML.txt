@@ -1,0 +1,90 @@
+Phase 0 : Orientation
+📘 Day 2: 3 Main Types of Machine Learning (Plus One Extra!)
+
+Now that you know AI → ML → DL, let’s see how machines actually learn.
+There are 3 main types of ML, plus one “in‑between” type:
+
+📊 1. Supervised Learning – Learning with Labels
+You give the model data + correct answers (labels), and it learns the mapping.
+
+How it works:
+
+Input: Features (like age, income, past loans)
+
+Output: Label (like “loan approved / rejected”)
+
+Examples:
+
+Email spam filter: emails + “spam / not spam” → model learns to classify new emails.
+
+House price prediction: house features (size, location, rooms) + actual prices → model predicts new house prices.
+
+📌 Key idea:
+👉 Supervised learning = learning from labeled examples.
+
+🔍 2. Unsupervised Learning – Finding Hidden Patterns
+You give the model data without labels, and it finds hidden structure or groups.
+
+How it works:
+
+Input: Raw data (like customer purchase history)
+
+Output: Groups, patterns, or simplified representations
+
+Examples:
+
+Customer segmentation: group customers by buying behavior without telling the model the groups.
+
+Anomaly detection: find unusual transactions in bank data that don’t fit normal patterns.
+
+📌 Key idea:
+👉 Unsupervised learning = finding patterns without correct answers.
+
+🔄 3. Reinforcement Learning – Learning by Trial and Reward
+The model learns by interacting with an environment and getting rewards or penalties.
+
+How it works:
+
+Agent takes actions in an environment.
+
+It gets rewards for good actions and penalties for bad ones.
+
+Over time, it learns a policy to maximize total reward.
+
+Examples:
+
+Game‑playing AI (like AlphaGo): learns to play better by winning or losing matches.
+
+Self‑driving car simulation: learns to stay in lane, avoid obstacles, and follow traffic rules through rewards.
+
+📌 Key idea:
+👉 Reinforcement learning = learning by trial, error, and reward.
+
+🟡 Extra: Semi‑Supervised Learning – Mix of Both
+You have a small amount of labeled data + a lot of unlabeled data.
+The model uses both to improve learning.
+
+Examples:
+
+Medical imaging: only a few images are labeled by doctors, but there are thousands of unlabeled scans.
+
+Speech recognition: a small labeled dataset plus large unlabeled audio recordings.
+
+📌 Key idea:
+👉 Semi‑supervised learning = partly labeled, partly unlabeled data.
+
+🧩 Quick Summary
+
+Supervised: data + labels → prediction (classification / regression)
+
+Unsupervised: data only → patterns / groups
+
+Reinforcement: actions + rewards → optimal behavior
+
+Semi‑supervised: few labels + many unlabeled examples
+
+💭 Your Turn:
+Think of one real‑life problem you’d solve with supervised, unsupervised, or reinforcement learning.
+Comment or share your idea in the replies!
+
+👉 Next post (Day 3): Real-Life Applications of ML + ML Workflow (End-to-End)
