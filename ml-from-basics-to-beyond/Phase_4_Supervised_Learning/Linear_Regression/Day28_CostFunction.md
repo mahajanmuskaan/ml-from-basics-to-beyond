@@ -204,17 +204,3 @@ The Squared Error Cost Function for Linear Regression is **convex**. Formally, a
 
 > ⚠️ This is a luxury that **Neural Networks do not have** — their cost functions are non-convex with many local minima. Understanding why Linear Regression is special here sets up an important contrast for later in the course.
 
----
-
-## 🧠 Key Takeaways — Day 28
-
-- The **Cost Function J(w, b)** measures how wrong your model is — lower is better.
-- We use **Squared Error** because it is smooth, differentiable, and penalizes large errors quadratically.
-- The `1/2` factor is a **mathematical convenience** for clean gradient expressions.
-- `J(w)` traces a **parabola**; `J(w, b)` traces a **convex bowl** in 3D.
-- **Contour plots** show equal-cost rings — the center is always the minimum.
-- The training goal is formally: **minimize J(w, b)**.
-- Convexity guarantees that **Gradient Descent will always find the global minimum**.
-- Next up → **Gradient Descent** — the algorithm that actually walks down the bowl.
-
----
