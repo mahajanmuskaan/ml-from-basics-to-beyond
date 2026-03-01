@@ -11,4 +11,4 @@ This repository documents my **Machine Learning learning journey**, starting wit
 ### Phase 4: Supervised Learning *(In Progress)*
 
 **Courses & References:**
-- [Andrew Ng — Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) *(Core reference for Supervised Learning and Unsupervised Learning)*
+- [Andrew Ng — Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) *(Core reference for Supervised Learning and Unsupervised Learning!)*
