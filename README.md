@@ -9,7 +9,7 @@ This repository documents my **Machine Learning learning journey**, starting wit
 ### Phase 2: Data Preprocessing & Preparation ✅
 ### Phase 3: Machine Learning Fundamentals ✅
 ### Phase 4: Supervised Learning *(In Progress 🔄)*
-> 💭 **[Thoughtful QnA](Phase_4_Supervised_Learning/Thoughtful%20QnA/)** — A dedicated space for late-night questions, random thoughts, and explorations of how ML concepts interconnect, form pipelines, and build on each other.
+> 💭 **[Thoughtful QnA](https://github.com/mahajanmuskaan/ml-from-basics-to-beyond/tree/main/ml-from-basics-to-beyond/Phase_4_Supervised_Learning/Thoughtful%20QnA)** — A dedicated space for late-night questions, random thoughts, and explorations of how ML concepts interconnect, form pipelines, and build on each other.
 ### Phase 5: Unsupervised Learning
 
 ## 📚 Courses & References
