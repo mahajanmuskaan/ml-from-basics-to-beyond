@@ -413,7 +413,7 @@ Using the same scaled values from the worked example above.
 
 ### Manhattan Distance (p = 1)
 
-$$d_{\text{Manhattan}} = \sum_{j=1}^{n} |x_j^{?} - x_j^{(i)}|}$$
+$$d_{\text{Manhattan}} = \sum_{j=1}^{n} |x_j^{?} - x_j^{(i)}|$$
 
 No squaring, no square root — just the sum of absolute differences.
 
@@ -540,7 +540,17 @@ For each fold (1 to F):
 Average error across all F rounds = CV Error
 ```
 
-> ⚠️ *Cross-validation and Grid Search will be covered properly in Andrew Ng's Course 2-Neural Networks. For now, we will learn about the rule of thumb and elbow method.*
+**Leave-One-Out CV (LOOCV):** Special case where F = m. Every single point gets tested exactly once.
+
+| | K-Fold CV | LOOCV |
+|---|---|---|
+| Number of rounds | F (typically 5 or 10) | m |
+| Training set size | $\frac{F-1}{F} \times m$ | $m - 1$ |
+| Variance of estimate | Moderate | Low |
+| Computation cost | Moderate | High |
+| Best for | Large datasets | Small datasets |
+
+> ⚠️ *Cross-validation and Grid Search will be covered properly in Andrew Ng's Course 2. For now, use the rule of thumb and elbow method.*
 
 ---
 
@@ -580,6 +590,23 @@ For each K:
 Pick K* = argmin(CV Error)
         ↓
 Retrain final model on ALL data using K*
+```
+
+```python
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.model_selection import GridSearchCV
+
+param_grid = {'n_neighbors': [1, 3, 5, 7, 9, 11, 13]}
+
+grid_search = GridSearchCV(
+    KNeighborsClassifier(),
+    param_grid,
+    cv=5,
+    scoring='accuracy'
+)
+
+grid_search.fit(X_train_scaled, y_train)
+print(f"Best K: {grid_search.best_params_}")
 ```
 
 **Reliability: Highest.** This is the production standard.
@@ -632,3 +659,33 @@ Regression     → Average value  → predicted number
         ↓
 Output prediction
 ```
+
+### Key Takeaways
+
+**Intuition**
+- Classify by majority vote of K nearest neighbors — no training, pure memorization and retrieval
+- Works for both classification (voting) and regression (averaging)
+
+**Distance Metrics**
+- Euclidean (p=2) — straight-line distance, default choice, sensitive to scale
+- Manhattan (p=1) — grid distance, more robust in higher dimensions
+- Minkowski — unified formula, p is a hyperparameter
+- **Feature scaling is mandatory** — unscaled features dominate distance calculations
+
+**Choosing K**
+- Small K → high variance → overfits to noise
+- Large K → high bias → over-smoothed, ignores local structure
+- Use odd K for binary classification; find optimal K via cross-validation
+
+**Curse of Dimensionality**
+- In high dimensions, all points become approximately equidistant
+- Neighborhood coverage requires exponentially more data as n grows
+- KNN degrades rapidly beyond ~10–20 features without dimensionality reduction
+
+**Lazy Learner**
+- Zero training time — stores data, computes everything at prediction
+- Prediction cost = $O(m \cdot n)$ — slow for large datasets
+- Naturally handles new data, no retraining needed
+- No interpretable model — black box by nature
+
+---
