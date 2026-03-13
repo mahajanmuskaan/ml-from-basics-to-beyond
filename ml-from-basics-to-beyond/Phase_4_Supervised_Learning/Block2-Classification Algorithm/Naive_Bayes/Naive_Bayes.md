@@ -13,7 +13,6 @@
 7. [Three Flavors of Naive Bayes](#7-three-flavors-of-naive-bayes)
 8. [Why It Works Despite the Naive Assumption](#8-why-it-works-despite-the-naive-assumption)
 9. [Complete Algorithm Summary](#9-complete-algorithm-summary)
-
 ---
 
 ## The Story Used Throughout
@@ -213,7 +212,7 @@ $$P(\text{Flu} \mid \text{symptoms}) = \frac{0.256}{0.256 + 0.004} \approx \math
 
 $$P(\text{Cold} \mid \text{symptoms}) = \frac{0.004}{0.260} \approx \mathbf{1.5\%}$$
 
-$$\boxed{\text{Prediction: Flu} \quad (98.5\% \text{ confident})}$$
+**Prediction: Flu — 98.5% confident**
 
 ---
 
@@ -573,3 +572,4 @@ Protections:
 ```
 
 ---
+
