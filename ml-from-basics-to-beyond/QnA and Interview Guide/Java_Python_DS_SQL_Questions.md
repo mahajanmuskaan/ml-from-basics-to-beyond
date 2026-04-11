@@ -1,11 +1,8 @@
-# 🎓 Interview Questions & Answers
-### Java | Python | Data Structures | SQL
+# Java | Python | Data Structures | SQL
 
 ---
 
 # ☕ SECTION 1: JAVA
-
----
 
 ## 📌 PART A: Fundamentals
 
