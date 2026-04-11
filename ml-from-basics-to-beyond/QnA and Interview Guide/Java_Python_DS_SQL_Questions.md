@@ -1,11 +1,9 @@
 # 🎓 Interview Questions & Answers
 ### Java | Python | Data Structures | SQL
-> **For Entry-Level Assistant Professor Positions**
-> Each answer is written in simple language with one real-world example. Use these as your base and add your own teaching/research experience.
 
 ---
 
-# ☕ SECTION 1: JAVA (Questions 121–140)
+# ☕ SECTION 1: JAVA
 
 ---
 
@@ -13,7 +11,7 @@
 
 ---
 
-### Q121. Explain the key principles of Object-Oriented Programming in Java.
+### Q1. Explain the key principles of Object-Oriented Programming in Java.
 
 **Answer:**
 
@@ -35,7 +33,7 @@ Think of a **Bank Account system**:
 
 ---
 
-### Q122. What is the difference between JDK, JRE, and JVM?
+### Q2. What is the difference between JDK, JRE, and JVM?
 
 **Answer:**
 
@@ -61,7 +59,7 @@ A user who only wants to run your app needs the **JRE**. You, the developer, nee
 
 ---
 
-### Q123. Explain "Write Once, Run Anywhere" in Java.
+### Q3. Explain "Write Once, Run Anywhere" in Java.
 
 **Answer:**
 
@@ -77,7 +75,7 @@ A banking application built in Java on a Windows development machine can be depl
 
 ---
 
-### Q124. What is the difference between primitive types and wrapper classes?
+### Q4. What is the difference between primitive types and wrapper classes?
 
 **Answer:**
 
@@ -95,7 +93,7 @@ You're building a student grade system using an `ArrayList`. You can't write `Ar
 
 ---
 
-### Q125. Explain pass-by-value in Java. How are objects passed?
+### Q5. Explain pass-by-value in Java. How are objects passed?
 
 **Answer:**
 
@@ -118,7 +116,7 @@ Imagine you share a **Google Doc link** with a friend (passing object reference)
 
 ---
 
-### Q126. What are access modifiers in Java? (public, private, protected, default)
+### Q6. What are access modifiers in Java? (public, private, protected, default)
 
 **Answer:**
 
@@ -146,7 +144,7 @@ In a hospital management system:
 
 ---
 
-### Q127. Explain Java's memory model (heap, stack, method area).
+### Q7. Explain Java's memory model (heap, stack, method area).
 
 **Answer:**
 
@@ -168,7 +166,7 @@ When a bank's `transfer()` method runs:
 
 ---
 
-### Q128. How does garbage collection work in Java?
+### Q8. How does garbage collection work in Java?
 
 **Answer:**
 
@@ -187,7 +185,7 @@ An e-commerce app processes 1000 orders/minute. Each `Order` object is created, 
 
 ---
 
-### Q129. What is the difference between == and .equals()?
+### Q9. What is the difference between == and .equals()?
 
 **Answer:**
 
@@ -209,7 +207,7 @@ Two different `Customer` objects created from the same data: `Customer c1 = new 
 
 ---
 
-### Q130. Explain method overloading vs method overriding.
+### Q10. Explain method overloading vs method overriding.
 
 **Answer:**
 
@@ -229,7 +227,7 @@ In a **Payment Gateway**:
 
 ---
 
-### Q131. What is polymorphism? Provide examples.
+### Q11. What is polymorphism? Provide examples.
 
 **Answer:**
 
@@ -262,7 +260,7 @@ Same method call `n.send()` — three different behaviors based on the actual ob
 
 ---
 
-### Q132. Compare ArrayList vs LinkedList. When would you use each?
+### Q12. Compare ArrayList vs LinkedList. When would you use each?
 
 **Answer:**
 
@@ -284,7 +282,7 @@ Same method call `n.send()` — three different behaviors based on the actual ob
 
 ---
 
-### Q133. Explain the internal working of HashMap.
+### Q13. Explain the internal working of HashMap.
 
 **Answer:**
 
@@ -301,7 +299,7 @@ A phone contacts app stores names (keys) and phone numbers (values) in a HashMap
 
 ---
 
-### Q134. What is the difference between HashMap and Hashtable?
+### Q14. What is the difference between HashMap and Hashtable?
 
 **Answer:**
 
@@ -319,7 +317,7 @@ An old banking system from the 1990s used `Hashtable` because multiple threads a
 
 ---
 
-### Q135. Compare HashSet, LinkedHashSet, and TreeSet.
+### Q15. Compare HashSet, LinkedHashSet, and TreeSet.
 
 **Answer:**
 
@@ -340,7 +338,7 @@ All implement the `Set` interface (no duplicates), but differ in ordering and pe
 
 ---
 
-### Q136. What is the Collections Framework in Java?
+### Q16. What is the Collections Framework in Java?
 
 **Answer:**
 
@@ -374,7 +372,7 @@ All managed by the same framework with consistent APIs.
 
 ---
 
-### Q137. What are generics in Java? Why use them?
+### Q17. What are generics in Java? Why use them?
 
 **Answer:**
 
@@ -402,7 +400,7 @@ A hospital's inventory system stores different items: medicines, equipment, cons
 
 ---
 
-### Q138. Explain lambda expressions in Java 8+.
+### Q18. Explain lambda expressions in Java 8+.
 
 **Answer:**
 
@@ -428,7 +426,7 @@ An e-commerce platform needs to filter, sort, and transform product lists differ
 
 ---
 
-### Q139. What is the Stream API? How does it differ from loops?
+### Q19. What is the Stream API? How does it differ from loops?
 
 **Answer:**
 
@@ -461,7 +459,7 @@ A payroll system processes 10,000 employees: filter by department, calculate tax
 
 ---
 
-### Q140. Explain exception handling in Java (try-catch-finally).
+### Q20. Explain exception handling in Java (try-catch-finally).
 
 **Answer:**
 
@@ -501,7 +499,7 @@ A banking application transfers money between accounts. During the operation, a 
 
 ---
 
-# 🐍 SECTION 2: PYTHON (Questions 141–160)
+# 🐍 SECTION 2: PYTHON
 
 ---
 
@@ -509,7 +507,7 @@ A banking application transfers money between accounts. During the operation, a 
 
 ---
 
-### Q141. Explain the Zen of Python and its philosophy.
+### Q21. Explain the Zen of Python and its philosophy.
 
 **Answer:**
 
@@ -528,7 +526,7 @@ A junior developer writes a one-liner to reverse a list with a complex lambda ex
 
 ---
 
-### Q142. What makes Python an interpreted language?
+### Q22. What makes Python an interpreted language?
 
 **Answer:**
 
@@ -551,7 +549,7 @@ A data scientist writes a Python script to analyze COVID data. They run it immed
 
 ---
 
-### Q143. What is the Global Interpreter Lock (GIL)? How does it affect performance?
+### Q23. What is the Global Interpreter Lock (GIL)? How does it affect performance?
 
 **Answer:**
 
@@ -577,7 +575,7 @@ A web scraper fetching 1000 URLs is **I/O-bound** — threads work fine because 
 
 ---
 
-### Q144. Compare lists, tuples, and sets in Python.
+### Q24. Compare lists, tuples, and sets in Python.
 
 **Answer:**
 
@@ -599,7 +597,7 @@ In a student database system:
 
 ---
 
-### Q145. How do dictionaries work in Python? What can be keys?
+### Q25. How do dictionaries work in Python? What can be keys?
 
 **Answer:**
 
@@ -624,7 +622,7 @@ A university's grade lookup system: `grades = {"CS101": "A", "MATH201": "B+", "P
 
 ---
 
-### Q146. Explain mutable vs immutable objects.
+### Q26. Explain mutable vs immutable objects.
 
 **Answer:**
 
@@ -657,7 +655,7 @@ A configuration system uses a **tuple** for database connection settings `("loca
 
 ---
 
-### Q147. Explain classes and objects in Python.
+### Q27. Explain classes and objects in Python.
 
 **Answer:**
 
@@ -686,7 +684,7 @@ A ride-sharing app like Uber defines a `Driver` class with attributes `name`, `r
 
 ---
 
-### Q148. What is the difference between `__init__` and `__new__`?
+### Q28. What is the difference between `__init__` and `__new__`?
 
 **Answer:**
 
@@ -716,7 +714,7 @@ A database connection manager uses `__new__` to implement the **Singleton patter
 
 ---
 
-### Q149. Explain class methods, static methods, and instance methods.
+### Q29. Explain class methods, static methods, and instance methods.
 
 **Answer:**
 
@@ -751,7 +749,7 @@ A `User` class in a web app: `login(self)` is an instance method (needs this spe
 
 ---
 
-### Q150. What are decorators in Python? How do they work?
+### Q30. What are decorators in Python? How do they work?
 
 **Answer:**
 
@@ -781,7 +779,7 @@ A Django or Flask web app uses `@login_required` decorator on every route that n
 
 ---
 
-### Q151. Explain lambda functions and their limitations.
+### Q31. Explain lambda functions and their limitations.
 
 **Answer:**
 
@@ -814,7 +812,7 @@ A data analyst sorts a DataFrame of sales records: `df.sort_values(by='revenue',
 
 ---
 
-### Q152. What are generators in Python? How do they differ from lists?
+### Q32. What are generators in Python? How do they differ from lists?
 
 **Answer:**
 
@@ -844,7 +842,7 @@ Processing a 50GB log file line by line: `open()` returns a generator — Python
 
 ---
 
-### Q153. Explain the difference between shallow copy and deep copy.
+### Q33. Explain the difference between shallow copy and deep copy.
 
 **Answer:**
 
@@ -870,7 +868,7 @@ A game saving system: the current game state includes player inventory (`list` o
 
 ---
 
-### Q154. What are context managers? How do you implement them?
+### Q34. What are context managers? How do you implement them?
 
 **Answer:**
 
@@ -914,7 +912,7 @@ A data pipeline that writes to a CSV file: `with open("output.csv", "w") as f:` 
 
 ---
 
-### Q155. How does exception handling work in Python?
+### Q35. How does exception handling work in Python?
 
 **Answer:**
 
@@ -948,7 +946,7 @@ A payment API calls an external gateway. `except requests.Timeout` catches netwo
 
 ---
 
-### Q156. What are list comprehensions? How do they differ from loops?
+### Q36. What are list comprehensions? How do they differ from loops?
 
 **Answer:**
 
@@ -987,7 +985,7 @@ A data cleaning pipeline at a retail company: `cleaned_prices = [float(p.replace
 
 ---
 
-### Q157. What Python libraries are essential for data science?
+### Q37. What Python libraries are essential for data science?
 
 **Answer:**
 
@@ -1015,7 +1013,7 @@ All five libraries work together seamlessly in a Jupyter Notebook — a typical 
 
 ---
 
-### Q158. How would you use Python for machine learning?
+### Q38. How would you use Python for machine learning?
 
 **Answer:**
 
@@ -1054,7 +1052,7 @@ A fintech startup uses Python to predict credit risk. Pandas loads loan applicat
 
 ---
 
-### Q159. What is NumPy? Why is it faster than pure Python?
+### Q39. What is NumPy? Why is it faster than pure Python?
 
 **Answer:**
 
@@ -1088,7 +1086,7 @@ A quantitative analyst at a hedge fund computes the dot product of a 10,000 × 1
 
 ---
 
-### Q160. Explain pandas DataFrames and their advantages.
+### Q40. Explain pandas DataFrames and their advantages.
 
 **Answer:**
 
@@ -1121,7 +1119,7 @@ A retail analyst at Walmart loads a 5-million-row sales dataset into a DataFrame
 
 ---
 
-# 🗂️ SECTION 3: DATA STRUCTURES (Questions 161–192)
+# 🗂️ SECTION 3: DATA STRUCTURES
 
 ---
 
@@ -1129,7 +1127,7 @@ A retail analyst at Walmart loads a 5-million-row sales dataset into a DataFrame
 
 ---
 
-### Q161. What are data structures? Why are they fundamental to CS?
+### Q41. What are data structures? Why are they fundamental to CS?
 
 **Answer:**
 
@@ -1152,7 +1150,7 @@ Google Maps computes the shortest driving route between two cities. The road net
 
 ---
 
-### Q162. What is the difference between abstract data types and data structures?
+### Q42. What is the difference between abstract data types and data structures?
 
 **Answer:**
 
@@ -1175,7 +1173,7 @@ An airline's boarding system uses the Queue ADT — engineers chose the linked l
 
 ---
 
-### Q163. Explain time complexity and space complexity.
+### Q43. Explain time complexity and space complexity.
 
 **Answer:**
 
@@ -1200,7 +1198,7 @@ Both are "correct" — binary search just needs a sorted list. The 50,000× spee
 
 ---
 
-### Q164. What is Big O notation? Compare common complexities.
+### Q44. What is Big O notation? Compare common complexities.
 
 **Answer:**
 
@@ -1230,7 +1228,7 @@ An e-commerce site processes 1 million product searches per day. A product looku
 
 ---
 
-### Q165. Compare static arrays vs dynamic arrays.
+### Q45. Compare static arrays vs dynamic arrays.
 
 **Answer:**
 
@@ -1248,7 +1246,7 @@ A chess program's board is a **static 8×8 array** — the board never changes s
 
 ---
 
-### Q166. What are the time complexities of array operations?
+### Q46. What are the time complexities of array operations?
 
 **Answer:**
 
@@ -1269,7 +1267,7 @@ A music streaming app stores a playlist of 10,000 songs in an array. Jumping to 
 
 ---
 
-### Q167. How do dynamic arrays resize? What is amortized analysis?
+### Q47. How do dynamic arrays resize? What is amortized analysis?
 
 **Answer:**
 
@@ -1291,7 +1289,7 @@ Java's `ArrayList` starts with capacity 10. When the 11th element is added: crea
 
 ---
 
-### Q168. What string matching algorithms exist?
+### Q48. What string matching algorithms exist?
 
 **Answer:**
 
@@ -1314,7 +1312,7 @@ A content moderation system at a social media platform needs to detect 10,000 ba
 
 ---
 
-### Q169. Compare singly, doubly, and circular linked lists.
+### Q49. Compare singly, doubly, and circular linked lists.
 
 **Answer:**
 
@@ -1339,7 +1337,7 @@ Circular: [A]→[B]→[C]→[A] (loops back)
 
 ---
 
-### Q170. What are the advantages of linked lists over arrays?
+### Q50. What are the advantages of linked lists over arrays?
 
 **Answer:**
 
@@ -1360,7 +1358,7 @@ A hospital's patient queue: patients arrive and leave unpredictably. With an arr
 
 ---
 
-### Q171. How do you detect a cycle in a linked list?
+### Q51. How do you detect a cycle in a linked list?
 
 **Answer:**
 
@@ -1392,7 +1390,7 @@ A network packet routing system maintains a linked list of routers that a packet
 
 ---
 
-### Q172. How do you reverse a linked list?
+### Q52. How do you reverse a linked list?
 
 **Answer:**
 
@@ -1432,7 +1430,7 @@ A browser's "back" button uses a history stack. If we represent history as a lin
 
 ---
 
-### Q173. Explain stacks and queues as ADTs.
+### Q53. Explain stacks and queues as ADTs.
 
 **Answer:**
 
@@ -1461,7 +1459,7 @@ A browser's "back" button uses a history stack. If we represent history as a lin
 
 ---
 
-### Q174. What are the applications of stacks?
+### Q54. What are the applications of stacks?
 
 **Answer:**
 
@@ -1480,7 +1478,7 @@ Every time you call a function in any program, the CPU pushes a **stack frame** 
 
 ---
 
-### Q175. Compare simple queue, circular queue, and priority queue.
+### Q55. Compare simple queue, circular queue, and priority queue.
 
 **Answer:**
 
@@ -1505,7 +1503,7 @@ Every time you call a function in any program, the CPU pushes a **stack frame** 
 
 ---
 
-### Q176. Define tree terminology: root, leaf, height, depth.
+### Q56. Define tree terminology: root, leaf, height, depth.
 
 **Answer:**
 
@@ -1543,7 +1541,7 @@ HR systems use tree traversals to compute total team size under any manager in O
 
 ---
 
-### Q177. Explain tree traversals: preorder, inorder, postorder, level-order.
+### Q57. Explain tree traversals: preorder, inorder, postorder, level-order.
 
 **Answer:**
 
@@ -1572,7 +1570,7 @@ A **file system** uses postorder traversal to calculate directory sizes: a folde
 
 ---
 
-### Q178. What is a Binary Search Tree? What properties define it?
+### Q58. What is a Binary Search Tree? What properties define it?
 
 **Answer:**
 
@@ -1595,7 +1593,7 @@ A dictionary app's word lookup uses a BST: searching for "mango" — compare wit
 
 ---
 
-### Q179. Analyze BST operations in best, average, and worst cases.
+### Q59. Analyze BST operations in best, average, and worst cases.
 
 **Answer:**
 
@@ -1616,7 +1614,7 @@ A naive BST for storing user IDs that are assigned sequentially (1, 2, 3, 4...) 
 
 ---
 
-### Q180. What are balanced trees? Why do we need them?
+### Q60. What are balanced trees? Why do we need them?
 
 **Answer:**
 
@@ -1635,7 +1633,7 @@ Linux kernel's process scheduler uses a **Red-Black Tree** to manage runnable pr
 
 ---
 
-### Q181. Compare AVL trees and Red-Black trees.
+### Q61. Compare AVL trees and Red-Black trees.
 
 **Answer:**
 
@@ -1661,7 +1659,7 @@ Linux kernel's process scheduler uses a **Red-Black Tree** to manage runnable pr
 
 ---
 
-### Q182. What is a heap? Explain min-heap vs max-heap.
+### Q62. What is a heap? Explain min-heap vs max-heap.
 
 **Answer:**
 
@@ -1686,7 +1684,7 @@ A hospital emergency system uses a **min-heap** where lower numbers = higher pri
 
 ---
 
-### Q183. How is a heap implemented using arrays?
+### Q63. How is a heap implemented using arrays?
 
 **Answer:**
 
@@ -1719,7 +1717,7 @@ Python's `heapq` module implements a min-heap using a plain list. Task scheduler
 
 ---
 
-### Q184. What are the time complexities of heap operations?
+### Q64. What are the time complexities of heap operations?
 
 **Answer:**
 
@@ -1744,7 +1742,7 @@ Python's `heapq` module implements a min-heap using a plain list. Task scheduler
 
 ---
 
-### Q185. Explain hashing and hash functions.
+### Q65. Explain hashing and hash functions.
 
 **Answer:**
 
@@ -1766,7 +1764,7 @@ Git uses **SHA-1** hashing (now SHA-256) to identify every commit, file, and tre
 
 ---
 
-### Q186. What are hash collisions? Compare chaining vs open addressing.
+### Q66. What are hash collisions? Compare chaining vs open addressing.
 
 **Answer:**
 
@@ -1798,7 +1796,7 @@ Python's dictionary uses **open addressing** with a custom probing sequence (not
 
 ---
 
-### Q187. Compare hash tables with balanced BSTs.
+### Q67. Compare hash tables with balanced BSTs.
 
 **Answer:**
 
@@ -1830,7 +1828,7 @@ Twitter uses both: a hash map for O(1) username uniqueness checks and a B-Tree i
 
 ---
 
-### Q188. Define graphs: vertices, edges, directed vs undirected.
+### Q68. Define graphs: vertices, edges, directed vs undirected.
 
 **Answer:**
 
@@ -1855,7 +1853,7 @@ LinkedIn's professional network is an **undirected weighted graph**: people are 
 
 ---
 
-### Q189. Compare adjacency matrix vs adjacency list representations.
+### Q69. Compare adjacency matrix vs adjacency list representations.
 
 **Answer:**
 
@@ -1884,7 +1882,7 @@ The internet has ~5 billion users but the average person has ~338 Facebook frien
 
 ---
 
-### Q190. Explain Breadth-First Search (BFS) and its applications.
+### Q70. Explain Breadth-First Search (BFS) and its applications.
 
 **Answer:**
 
@@ -1925,7 +1923,7 @@ WhatsApp's "mutual friends" feature uses BFS starting from your profile — leve
 
 ---
 
-### Q191. Explain Depth-First Search (DFS) and its applications.
+### Q71. Explain Depth-First Search (DFS) and its applications.
 
 **Answer:**
 
@@ -1962,7 +1960,7 @@ When `npm install` or `pip install` resolves package dependencies, it uses **DFS
 
 ---
 
-### Q192. What is Dijkstra's algorithm? When does it fail?
+### Q72. What is Dijkstra's algorithm? When does it fail?
 
 **Answer:**
 
@@ -2006,7 +2004,7 @@ Google Maps computes the fastest driving route using a Dijkstra variant. Interse
 
 ---
 
-# 🗄️ SECTION 4: SQL (Questions 193–220)
+# 🗄️ SECTION 4: SQL
 
 ---
 
@@ -2014,7 +2012,7 @@ Google Maps computes the fastest driving route using a Dijkstra variant. Interse
 
 ---
 
-### Q193. What is SQL? What are different SQL dialects?
+### Q73. What is SQL? What are different SQL dialects?
 
 **Answer:**
 
@@ -2035,7 +2033,7 @@ A company migrates from MySQL to PostgreSQL. Their MySQL query uses `LIMIT 10` (
 
 ---
 
-### Q194. Explain the types of SQL commands: DDL, DML, DCL, TCL.
+### Q74. Explain the types of SQL commands: DDL, DML, DCL, TCL.
 
 **Answer:**
 
@@ -2059,7 +2057,7 @@ A bank's database administrator (DBA):
 
 ---
 
-### Q195. What is a relational database? Explain the relational model.
+### Q75. What is a relational database? Explain the relational model.
 
 **Answer:**
 
@@ -2082,7 +2080,7 @@ Amazon's product database: `Products` table (ProductID, Name, Price) relates to 
 
 ---
 
-### Q196. What is a primary key? What properties must it have?
+### Q76. What is a primary key? What properties must it have?
 
 **Answer:**
 
@@ -2104,7 +2102,7 @@ An airline uses `FlightNumber + DepartureDate` as a **composite primary key** fo
 
 ---
 
-### Q197. Explain foreign keys and referential integrity.
+### Q77. Explain foreign keys and referential integrity.
 
 **Answer:**
 
@@ -2133,7 +2131,7 @@ An e-commerce platform: the `Orders` table has `CustomerID` as a FK referencing 
 
 ---
 
-### Q198. What is database normalization? Why is it important?
+### Q78. What is database normalization? Why is it important?
 
 **Answer:**
 
@@ -2160,7 +2158,7 @@ An unnormalized school database stores: `StudentName, Course, Teacher, TeacherPh
 
 ---
 
-### Q199. Explain 1NF, 2NF, 3NF, and BCNF with examples.
+### Q79. Explain 1NF, 2NF, 3NF, and BCNF with examples.
 
 **Answer:**
 
@@ -2197,7 +2195,7 @@ A university's enrollment system violates 3NF: `EnrollmentTable(StudentID, Cours
 
 ---
 
-### Q200. What are functional dependencies?
+### Q80. What are functional dependencies?
 
 **Answer:**
 
@@ -2230,7 +2228,7 @@ Understanding FDs is what allows a DBA to normalize the payroll system correctly
 
 ---
 
-### Q201. Explain the structure and execution order of a SELECT statement.
+### Q81. Explain the structure and execution order of a SELECT statement.
 
 **Answer:**
 
@@ -2265,7 +2263,7 @@ An analyst writes: `SELECT department, AVG(salary) as avg_sal FROM employees WHE
 
 ---
 
-### Q202. What is the difference between WHERE and HAVING clauses?
+### Q82. What is the difference between WHERE and HAVING clauses?
 
 **Answer:**
 
@@ -2295,7 +2293,7 @@ An HR dashboard: "Show departments where the average salary of employees hired a
 
 ---
 
-### Q203. Explain aggregate functions: COUNT, SUM, AVG, MIN, MAX.
+### Q83. Explain aggregate functions: COUNT, SUM, AVG, MIN, MAX.
 
 **Answer:**
 
@@ -2326,7 +2324,7 @@ An e-commerce CEO's dashboard query: `SELECT COUNT(*) as total_customers, AVG(to
 
 ---
 
-### Q204. What is the GROUP BY clause? How does it work?
+### Q84. What is the GROUP BY clause? How does it work?
 
 **Answer:**
 
@@ -2353,7 +2351,7 @@ Zomato's analytics team runs: `SELECT city, restaurant_id, COUNT(*) as orders, A
 
 ---
 
-### Q205. How do NULL values behave in SQL?
+### Q85. How do NULL values behave in SQL?
 
 **Answer:**
 
@@ -2389,7 +2387,7 @@ A sales report calculates commission: `commission = salary * bonus_rate`. If `bo
 
 ---
 
-### Q206. Explain different types of JOINs: INNER, LEFT, RIGHT, FULL OUTER.
+### Q86. Explain different types of JOINs: INNER, LEFT, RIGHT, FULL OUTER.
 
 **Answer:**
 
@@ -2420,7 +2418,7 @@ A marketing team needs to find customers who **never placed an order** (to send 
 
 ---
 
-### Q207. What is a SELF JOIN? When would you use it?
+### Q87. What is a SELF JOIN? When would you use it?
 
 **Answer:**
 
@@ -2446,7 +2444,7 @@ A corporate org chart is stored in one `Employees` table with a `ManagerID` colu
 
 ---
 
-### Q208. What is the difference between UNION and UNION ALL?
+### Q88. What is the difference between UNION and UNION ALL?
 
 **Answer:**
 
@@ -2476,7 +2474,7 @@ A bank's audit report combines transactions from two systems: a legacy `old_tran
 
 ---
 
-### Q209. Explain subqueries: correlated vs non-correlated.
+### Q89. Explain subqueries: correlated vs non-correlated.
 
 **Answer:**
 
@@ -2512,7 +2510,7 @@ Finding employees earning above their own department's average (not company aver
 
 ---
 
-### Q210. What are Common Table Expressions (CTEs)?
+### Q90. What are Common Table Expressions (CTEs)?
 
 **Answer:**
 
@@ -2544,7 +2542,7 @@ LinkedIn's "People you may know" might use a recursive CTE to find friends-of-fr
 
 ---
 
-### Q211. Explain window functions (ROW_NUMBER, RANK, DENSE_RANK).
+### Q91. Explain window functions (ROW_NUMBER, RANK, DENSE_RANK).
 
 **Answer:**
 
@@ -2577,7 +2575,7 @@ An e-commerce analytics report needs to find the **top 3 selling products per ca
 
 ---
 
-### Q212. How do you find the Nth highest value in a table?
+### Q92. How do you find the Nth highest value in a table?
 
 **Answer:**
 
@@ -2617,7 +2615,7 @@ A company's HR policy gives bonuses to the employee with the **3rd highest perfo
 
 ---
 
-### Q213. Explain CREATE, ALTER, DROP, and TRUNCATE.
+### Q93. Explain CREATE, ALTER, DROP, and TRUNCATE.
 
 **Answer:**
 
@@ -2646,7 +2644,7 @@ A startup launches a new feature — user profiles with profile pictures. The DB
 
 ---
 
-### Q214. What is the difference between DELETE, TRUNCATE, and DROP?
+### Q94. What is the difference between DELETE, TRUNCATE, and DROP?
 
 **Answer:**
 
@@ -2674,7 +2672,7 @@ A retail company's ETL pipeline clears a staging table before each nightly data 
 
 ---
 
-### Q215. Explain constraints: PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, NOT NULL.
+### Q95. Explain constraints: PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, NOT NULL.
 
 **Answer:**
 
@@ -2708,7 +2706,7 @@ A university student registration system uses all constraints together: `student
 
 ---
 
-### Q216. What are indexes? Why are they important?
+### Q96. What are indexes? Why are they important?
 
 **Answer:**
 
@@ -2739,7 +2737,7 @@ Twitter stores 500 million tweets/day. Without an index on `user_id`, loading so
 
 ---
 
-### Q217. Compare clustered vs non-clustered indexes.
+### Q97. Compare clustered vs non-clustered indexes.
 
 **Answer:**
 
@@ -2759,7 +2757,7 @@ A hospital patient database: `PatientID` (PRIMARY KEY) automatically creates a *
 
 ---
 
-### Q218. When should you create an index? When should you avoid it?
+### Q98. When should you create an index? When should you avoid it?
 
 **Answer:**
 
@@ -2785,7 +2783,7 @@ An e-commerce product table with 2 million products: `CREATE INDEX idx_product_c
 
 ---
 
-### Q219. What is a transaction? Explain ACID properties.
+### Q99. What is a transaction? Explain ACID properties.
 
 **Answer:**
 
@@ -2814,7 +2812,7 @@ HDFC Bank processes 10 million transactions daily. Without ACID: a power failure
 
 ---
 
-### Q220. Explain isolation levels: READ UNCOMMITTED, READ COMMITTED, REPEATABLE READ, SERIALIZABLE.
+### Q100. Explain isolation levels: READ UNCOMMITTED, READ COMMITTED, REPEATABLE READ, SERIALIZABLE.
 
 **Answer:**
 
