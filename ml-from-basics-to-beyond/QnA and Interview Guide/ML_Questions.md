@@ -1,5 +1,4 @@
 # 🎓 Top ML Interview Questions & Answers
----
 
 ## 📌 SECTION 1: Foundations of AI & ML
 
