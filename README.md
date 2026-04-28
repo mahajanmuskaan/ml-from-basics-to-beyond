@@ -6,20 +6,6 @@
 
 ---
 
-## 🏁 All Phases Completed ✅
-
-| Phase | Topic | Status |
-|---|---|---|
-| **Phase 0** | Conceptual Orientation | ✅ Complete |
-| **Phase 1** | Python & Mathematical Foundations | ✅ Complete |
-| **Phase 2** | Data Preprocessing & Preparation | ✅ Complete |
-| **Phase 3** | Machine Learning Fundamentals | ✅ Complete |
-| **Phase 4** | Supervised Learning | ✅ Complete |
-| **Phase 5** | Unsupervised Learning | ✅ Complete |
-| **Phase 6** | Neural Networks | ✅ Complete |
-| **Phase 7** | Improving ML Model | ✅ Complete |
-
----
 
 ## 📖 What This Repository Contains
 
@@ -37,7 +23,7 @@ Each phase builds on the previous one. A beginner can follow this roadmap sequen
 
 | Course | Purpose |
 |---|---|
-| [Andrew Ng — Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) *(Coursera)* | Core reference for Supervised Learning, Unsupervised Learning, Neural Networks, Recommender Systems, and Reinforcement Learning |
+| [Andrew Ng — Machine Learning Specialization](https://www.deeplearning.ai/courses/machine-learning-specialization/)| Core reference for Supervised Learning, Unsupervised Learning, Neural Networks, Recommender Systems, and Reinforcement Learning |
 
 ### 📺 Topic-Specific References
 
